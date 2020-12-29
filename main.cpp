@@ -237,8 +237,6 @@ int main() {
     points.push_back(make_pair(-2, -1));
     points.push_back(make_pair(-1, 1));
 
-    int num = points.size();
-
     // sorting set of points according to x-coordinate
     sort(points.begin(), points.end());
     vector<pair<int, int>> ans = divide(points);
